@@ -1,3 +1,8 @@
+// import function from 'chai' library
+
+const assert = require('chai').assert;
+const head = require('../tail');
+
 const assertEqual = require('../assertEqual');
 
 const tail = function(array) {

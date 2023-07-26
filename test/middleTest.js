@@ -1,3 +1,8 @@
+// import function from 'chai' library
+
+const assert = require('chai').assert;
+const head = require('../middle');
+
 const eqArrays = require("../eqArrays");
 
 const middle = function(array) {
