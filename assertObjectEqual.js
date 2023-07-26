@@ -1,3 +1,7 @@
+// function 'assertObjectsEqual' takes two objects array1 
+// and array2 as input and checks if they are equal. The function is 
+// designed to handle nested objects and arrays recursively to compare 
+// their contents.
 const assertObjectsEqual = function(array1, array2) {
   
   if (array1.length !== array2.length) {
