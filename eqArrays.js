@@ -1,3 +1,5 @@
+// Use 'eqArrays' function to compare two arrays for equality 
+
 const eqArrays = function(array1, array2) {
   if (array1.length != array2.length) {
     return false;
@@ -18,10 +20,12 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
+// export the function 'eqArrays'
+
 module.exports = eqArrays;
 
-//console.log(eqArrays([1, 2, 3], [1, 2, 3])); // => true
-//console.log(eqArrays([1, 2, 3], [3, 2, 1])); // => false
+console.log(eqArrays([1, 2, 3], [1, 2, 3])); // => true
+console.log(eqArrays([1, 2, 3], [3, 2, 1])); // => false
 
-//console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])); // => true
-//console.log(eqArrays(["1", "2", "3"], ["3", "2", 1])); // => false
+console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])); // => true
+console.log(eqArrays(["1", "2", "3"], ["3", "2", 1])); // => false

@@ -1,3 +1,6 @@
+// function named middle that takes an array as input and returns 
+// a new array containing the middle element(s) of the input array. 
+
 const middle = function(array) {
   let newArray = [];
   if (array.length === 1 || array.length === 2) {
@@ -22,3 +25,5 @@ console.log(middle([1, 2, 3]));
 console.log(middle([1, 2, 3, 4, 5]));
 console.log(middle([1, 2, 3, 4]));
 console.log(middle([1, 2, 3, 4, 5, 6]));
+
+module.exports = middle;

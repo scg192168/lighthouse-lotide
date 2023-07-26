@@ -1,3 +1,5 @@
+// use the function 'asserEqual' to perform assertions 
+
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -5,6 +7,9 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
+
+// use function 'countOnly' taking two arrays 'allItems' and 'itemsToCount'
+
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
   for (let item of allItems) {

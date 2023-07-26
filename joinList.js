@@ -10,9 +10,7 @@
  */
 
 // Write our function (we must define it too!) below
-// ...
 
-// Test / Driver Code below...
 const conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
 const concepts = joinList(conceptList, ", ");
 console.log(`Today I learned about ${concepts}.`);

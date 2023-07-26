@@ -1,3 +1,7 @@
+// The fucntion 'findKeyByValue' takes an object 
+// and a value as input and returns the key 
+// corresponding to that value in the object
+
 function findKeyByValue(object, value) {
   for (let key in object) {
     if (object[key] === value) {

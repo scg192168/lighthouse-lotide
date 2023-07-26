@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@shyamal192168/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shyamal192168",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/scg192168/lighthouse-lotide.git"
   },
-  "author": "",
+  "author": "Shyamal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scg192168/lighthouse-lotide/issues"

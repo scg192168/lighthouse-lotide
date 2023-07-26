@@ -1,3 +1,5 @@
+// implement function 'average'
+
 function average(list) {
   let sum = 0;
 

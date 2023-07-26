@@ -1,16 +1,21 @@
+// This JavaScript code defines a function called 'letterPosition', which 
+// takes a 'sentence' as input and returns an object that maps each unique
+// lowercase letter in the 'sentence' to an array of its positions (indexes)
+// in the 'sentence'
+
 const letterPosition = function(sentence) {
-cost result = {};
-  const LowerCaseSentence = sentence.toLowerCase();
+  const result = {};
+  const lowerCaseSentence = sentence.toLowerCase();
   for (let i = 0; i < lowerCaseSentence.length; i++) {
     const letter = lowerCaseSentence[i];
-    if (letter !== ' ' and!results[letter]) {
-      results[letter] = [i];
+    if (letter !== ' ' && !result[letter]) {
+      result[letter] = [i];
     } else if (letter !== ' ') {
-      results[letter].push(i);
+      result[letter].push(i);
     }
   }
-  return results;
+  return result;
 };
-const results = letterPositions("Lighthouse in the house");
+const result = letterPosition("Lighthouse in the house");
 
-console.log(results);
+console.log(result);

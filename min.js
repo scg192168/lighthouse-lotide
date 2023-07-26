@@ -1,5 +1,6 @@
+// Write code here that returns the smallest value in numbers
+
 const min = function(numbers) {
-  // Write code here that returns the smallest value in numbers
   return Math.min(...numbers);
 };
 

@@ -1,3 +1,4 @@
+// use 'process.argv' array to capture command-line arguments
 const num = process.argv.slice(2);
 console.log(num);
 const rollingDice = (num) => {

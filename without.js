@@ -1,3 +1,5 @@
+// three functions have been used 'eqArrays', 'assertArrayEqual' and 'without'
+
 const eqArrays = require("./eqArrays");
 const assertArraysEqual = require("./assertArraysEqual");
 const without = function(array1, arrayExclude) {
