@@ -12,6 +12,6 @@ const head = function(array) {
 };
 
 assertEqual(head([5,6,7]), 5);
-console.log(head([1,6,7,8]));
+console.log(head([5,6,7,8]));
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 console.log(head(["Hello", "Lighthouse", "Labs"]), "Hello");
