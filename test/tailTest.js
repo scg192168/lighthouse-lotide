@@ -1,15 +1,13 @@
 // import function from 'chai' library
 
 const assert = require('chai').assert;
-const head = require('../tail');
+const tail = require('../tail');
 
-const assertEqual = require('../assertEqual');
-
-const tail = function(array) {
-  console.log(array);
-  return array.slice(1);
-};
-console.log(tail([1, 6, 7, 8]));
-console.log(tail(["Hello", "Lighthouse", "Labs"]));
-
-module.exports = assertEqual;
+describe("#tail", () => {
+  it("returns 8 for [1, 6, 7, 8]", () => {
+    assert.deepEqual(tail([1, 6, 7, 8]), [6, 7, 8]);
+  });
+  it("returns 'Labs' for ['Hello', 'Lighthouse', 'Labs']", () => {
+    assert.deepEqual(tail(['Hello', 'Lighthouse', 'Labs']), ['Lighthouse', 'Labs']);
+  });
+});
