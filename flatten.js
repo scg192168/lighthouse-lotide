@@ -3,7 +3,7 @@
 // flattened form
 
 const flatten = function(array) {
-  var newArray = [];
+  let newArray = [];
   for (let i = 0; i < array.length; i++) {
     if (Array.isArray(array[i])) {
       for (let x = 0; x < array[i].length; x++) {
@@ -15,7 +15,5 @@ const flatten = function(array) {
   }
   return newArray;
 };
-
-// console.log(flatten([1, 2, [3, 4], 5, [6]]));
 
 module.exports = flatten;

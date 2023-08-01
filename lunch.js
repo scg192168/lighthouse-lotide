@@ -25,9 +25,7 @@ const whatToDoForLunch = function(hungry, availableTime) {
     if (availableTime > 30) {
       console.log ("This is an intense program after all and you should probably reconsider");
     }
-    //console.log("Need to eat");
   }
-
 }
 
 /*

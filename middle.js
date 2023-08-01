@@ -6,14 +6,14 @@ const middle = function(array) {
   if (array.length === 1 || array.length === 2) {
     return newArray;
   } else if (array.length % 2 === 0) {
-    var evenArray = (array.length - 1) / 2;
-    var intDown = Math.floor(evenArray);
-    var intUp = Math.ceil(evenArray);
+    const evenArray = (array.length - 1) / 2;
+    const intDown = Math.floor(evenArray);
+    const intUp = Math.ceil(evenArray);
     newArray.push(array[intDown]);
     newArray.push(array[intUp]);
     return newArray;
   } else {
-    var oddArray = (array.length - 1) / 2;
+    const oddArray = (array.length - 1) / 2;
     newArray.push(array[oddArray]);
     return newArray;
   }

@@ -1,11 +1,17 @@
-// Use 'eqArrays' function to compare two arrays for equality 
+/** Use 'eqArrays' function to compare two arrays for equality 
+ * @params array1 is a type of array;
+ * @params array2 is a type of array;
+ * @return true or false;
+*/
 
 const eqArrays = function(array1, array2) {
-  if (array1.length != array2.length) {
+  const array1length = array1.length;
+  const array2length = array2.length;
+  if (array1length != array2length) {
     return false;
   }
 
-  for (let i = 0; i < array1.length; i++) {
+  for (let i = 0; i < array1length; i++) {
     if ((Array.isArray(array1[i]))) {
       if (!eqArrays(array1[i], array2[i])) {
         return false;
@@ -20,12 +26,6 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
-// export the function 'eqArrays'
+/**  export the function 'eqArrays' */
 
 module.exports = eqArrays;
-
-// console.log(eqArrays([1, 2, 3], [1, 2, 3])); // => true
-// console.log(eqArrays([1, 2, 3], [3, 2, 1])); // => false
-
-// console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])); // => true
-// console.log(eqArrays(["1", "2", "3"], ["3", "2", 1])); // => false

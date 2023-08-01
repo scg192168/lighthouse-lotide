@@ -1,4 +1,5 @@
 // use callback function
+const assertEqual = require("./assertEqual");
 
 const findKey = function(object, callback) {
   for (let key in object) {
@@ -21,14 +22,6 @@ const obj = {
 
 const result = findKey(obj, x => x.stars === 2);
 console.log(result);
-
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`Assertation passed ${actual} === ${expected}`);
-  } else {
-    console.log(`Assertation failed ${actual} !== ${expected}`);
-  }
-};
 
 // Test case 1: key found
 const obj1 = {

@@ -18,6 +18,4 @@ const letterPosition = function(sentence) {
 };
 const result = letterPosition("Lighthouse in the house");
 
-console.log(result);
-
 module.exports = letterPosition;

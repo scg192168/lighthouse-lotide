@@ -7,15 +7,7 @@ const map = function(array, callback) {
   return results;
 };
 
-
-const eqArrays = require("./eqArrays");
-const assertArraysEqual = function(array1, array2) {
-  if (eqArrays(array1, array2)) {
-    console.log("Arrays are equal");
-  } else {
-    console.log("Arrays are not equal");
-  }
-};
+const assertArraysEqual = require("./assertArraysEqual");
 
 //using the custom map function
 let words = ["hello", "world", "this", "is", "map"];

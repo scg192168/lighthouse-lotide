@@ -21,4 +21,27 @@ const tail = require("./tail");
 const takeUntil = require("./takeUntil");
 const without = require("./without");
 
-module.exports = { assertArraysEqual, assertEqual, assertObjectsEqual, average, countLetters,countOnly, eqArrays, eqObjects, findKey, findKeyByValue, flatten, head, letterPosition, whatToDoForLunch, map, middle, min, reverse, sum, tail, takeUntil, without }
+module.exports = {
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  average,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  flatten,
+  head,
+  letterPosition,
+  whatToDoForLunch,
+  map,
+  middle,
+  min,
+  reverse,
+  sum,
+  tail,
+  takeUntil,
+  without,
+};
