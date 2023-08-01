@@ -3,7 +3,6 @@
 // first element. 
 
 const tail = function(array) {
-  console.log(array);
   return array.slice(1);
 };
 

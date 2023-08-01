@@ -3,10 +3,10 @@
 let input = process.argv[2];
 
 function reverse(original) {
-  return original.split('').reverseList().join('');
+  return original.split("").reverseList().join("");
 }
 if (input) {
-  console.log(reverse(input));
+  return reverse(input);
 } else {
   console.log("String.");
 }

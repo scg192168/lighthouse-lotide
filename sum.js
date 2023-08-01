@@ -5,6 +5,5 @@ const sum = function (num1, num2) {
   return num1 + num2
 }
 const result = sum(a,b)
-console.log(result)
 
 module.exports = sum;
