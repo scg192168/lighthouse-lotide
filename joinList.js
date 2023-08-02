@@ -9,7 +9,6 @@
  * Note: We can NOT use the built-in Array join function.
  */
 
-// Write our function (we must define it too!) below
 
 const conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
 const concepts = joinList(conceptList, ", ");

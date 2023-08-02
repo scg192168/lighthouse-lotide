@@ -1,4 +1,4 @@
-// use callback function
+/** use callback function */
 const assertEqual = require("./assertEqual");
 
 const findKey = function(object, callback) {
@@ -23,7 +23,7 @@ const obj = {
 const result = findKey(obj, x => x.stars === 2);
 console.log(result);
 
-// Test case 1: key found
+/** Test case 1: key found */
 const obj1 = {
   "key1": { value: "abc" },
   "key2": { value: "def" },
@@ -32,7 +32,7 @@ const obj1 = {
 const result1 = findKey(obj1, x => x.value === "def");
 assertEqual(result1, "key2");
 
-// Test case 2: key not found
+/** Test case 2: key not found */
 const obj2 = {
   "key1": { value: "abc" },
   "key2": { value: "def" },
@@ -41,7 +41,7 @@ const obj2 = {
 const result2 = findKey(obj2, x => x.value === "xyz");
 assertEqual(result2, undefined);
 
-// Test case 3: Empty object
+/** Test case 3: Empty object */
 const obj3 = {};
 const result3 = findKey(obj3, x => x.value === "xyz");
 assertEqual(result3, undefined);

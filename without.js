@@ -1,4 +1,4 @@
-// three functions have been used 'eqArrays', 'assertArrayEqual' and 'without'
+/** three functions have been used 'eqArrays', 'assertArrayEqual' and 'without' */
 
 const without = function(array1, arrayExclude) {
   const result = [];

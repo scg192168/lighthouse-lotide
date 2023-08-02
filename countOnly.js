@@ -1,9 +1,9 @@
-// use the function 'asserEqual' to perform assertions 
+/** use the function 'asserEqual' to perform assertions*/
 
 const assertEqual = require("./assertEqual");
 
 
-// use function 'countOnly' taking two arrays 'allItems' and 'itemsToCount'
+/** use function 'countOnly' taking two arrays 'allItems' and 'itemsToCount' */
 
 const countOnly = function(allItems, itemsToCount) {
   const results = {};

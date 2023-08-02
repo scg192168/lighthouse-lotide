@@ -1,4 +1,4 @@
-// use 'process.argv' array to capture command-line arguments
+/** use 'process.argv' array to capture command-line arguments */
 const num = process.argv.slice(2);
 const rollingDice = (num) => {
   let diceResults = [];

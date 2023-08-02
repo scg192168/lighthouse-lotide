@@ -1,6 +1,6 @@
-// The fucntion 'findKeyByValue' takes an object 
-// and a value as input and returns the key 
-// corresponding to that value in the object
+/** The fucntion 'findKeyByValue' takes an object 
+ and a value as input and returns the key 
+ corresponding to that value in the object */
 
 const asserEqual = require("./assertEqual");
 

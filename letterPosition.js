@@ -1,7 +1,7 @@
-// This JavaScript code defines a function called 'letterPosition', which 
-// takes a 'sentence' as input and returns an object that maps each unique
-// lowercase letter in the 'sentence' to an array of its positions (indexes)
-// in the 'sentence'
+/** This JavaScript code defines a function called 'letterPosition', which 
+takes a 'sentence' as input and returns an object that maps each unique
+lowercase letter in the 'sentence' to an array of its positions (indexes)
+in the 'sentence' */
 
 const letterPosition = function(sentence) {
   const result = {};

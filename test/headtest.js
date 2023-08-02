@@ -1,5 +1,5 @@
-// import 'assert' function from 'chai' library, allowing us to use
-// 'assert' methods
+/** import 'assert' function from 'chai' library, allowing us to use
+/** 'assert' methods */
 
 const assert = require('chai').assert;
 const head = require('../head');

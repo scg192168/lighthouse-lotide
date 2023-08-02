@@ -1,4 +1,4 @@
-// import function 'eqArrays'
+/** import function 'eqArrays' */
 
 const eqArrays = require('../eqArrays');
 

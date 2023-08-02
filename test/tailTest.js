@@ -1,4 +1,4 @@
-// import function from 'chai' library
+/** import function from 'chai' library */
 
 const assert = require('chai').assert;
 const tail = require('../tail');

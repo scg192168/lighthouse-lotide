@@ -1,6 +1,6 @@
-//  function named flatten that takes an array as input and returns 
-// a new array containing all the elements of the input array in a 
-// flattened form
+/**  function named flatten that takes an array as input and returns 
+a new array containing all the elements of the input array in a 
+flattened form */
 
 const flatten = function(array) {
   let newArray = [];

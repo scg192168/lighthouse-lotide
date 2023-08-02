@@ -1,5 +1,5 @@
-// function named middle that takes an array as input and returns 
-// a new array containing the middle element(s) of the input array. 
+/** function named middle that takes an array as input and returns 
+a new array containing the middle element(s) of the input array */ 
 
 const middle = function(array) {
   let newArray = [];

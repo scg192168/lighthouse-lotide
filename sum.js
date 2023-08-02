@@ -1,4 +1,4 @@
-// the function 'sum' is implemented with two variables 'a' and 'b'
+/** the function 'sum' is implemented with two variables 'a' and 'b' */
 const a = 10;
 const b = 25;
 const sum = function (num1, num2) {

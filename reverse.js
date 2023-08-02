@@ -1,4 +1,4 @@
-// variable 'input' takes command line argument using 'reverse' function to show output in reverse order
+/** variable 'input' takes command line argument using 'reverse' function to show output in reverse order */
 
 let input = process.argv[2];
 
